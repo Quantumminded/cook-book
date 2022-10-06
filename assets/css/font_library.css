@@ -2,7 +2,26 @@
 font-family: 'Lora', serif, 'Source Serif Pro', serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+color: #444;
+font-weight: 400;
+margin: 0px;
+}
+
 h1 {
-font-size: 46px;
-font-weight: 400;    
+font-size: 42px;
+
+}
+
+h2 {
+font-size: 32px;
+   
+}
+
+h3 {
+
+}
+
+p {
+color: #666
 }
