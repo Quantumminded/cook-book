@@ -4,7 +4,18 @@
 
 
 .recipe_page_header {
-    margin: 0px 0px 64px; 
+    margin: 0px 0px 46px; 
+}
+
+.recipe-top-action-area{
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe_action_icon {
+    font-size: 20px;
+    color: #C1A472;
+    margin-right: 32px;
 }
 
 .recipe_title_secion {
