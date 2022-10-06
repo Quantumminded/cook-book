@@ -3,6 +3,7 @@
 }
 
 
+
 .recipe_page_header {
     margin: 0px 0px 46px; 
 }
@@ -44,11 +45,11 @@
     object-fit: cover;
 }
 
-.container {
-    margin: 0px;
-}
+/* recipe body */
 
-.recipe_body_top{
+/* recipe body top */
+
+.recipe_body_top {
     margin: 0px 0px 52px 0px;
     padding: 0px;
 }
@@ -79,6 +80,8 @@ color: #999;
 }
 
 
+/* recipe incredient component */
+
 
 ul.recipe_ingredients_group{
 padding-left: 20px;
@@ -105,3 +108,119 @@ li.recipe_ingredients, .recipe_steps {
     padding: 0px 0px 0px 6px;
  }
 
+/* non-mobile */
+
+@media only screen and (mid-width: 600px) {
+.recipe_title_section_mobile{
+    display: none;
+}
+}
+
+ /* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .recipe_page {
+        padding: 46px 16px;
+    }
+
+    .recipe_title{
+        display: none;
+    }
+    
+    .recipe_img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+ .recipe_page_header {
+            display: none;
+        }
+
+    .recipe_title_section_mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .action_area_mobile{
+        display: flex;
+        flex-direction: row;
+    }
+    
+   
+
+    .recipe_action_icon:last-child {
+        margin: 0px;
+    }
+
+    .recipe_share_mobile {
+        margin-right: 18px;
+    }
+
+    .recipe_title_separation_line {
+        margin-top: 12px;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .recipe_subtitle {
+        width: 90%;
+    }
+
+    /* recipe main top */
+    .container.recipe_body_top{
+        margin-bottom: 0px;
+    }
+
+
+    .col-3.time_box {
+        width: 31%;
+    }
+
+    .col-5.table_author {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .col-7.table_time {
+        width: 100%;
+        margin-bottom: 32px;
+
+
+    }
+
+    /* recipe main body */
+
+    
+
+
+    .container.recipe_body_main {
+        padding-left: 0px;
+        
+    }
+
+    .col-5.recipe_table_left{
+        width: 96%;
+        margin: 0px 12px 24px;
+        padding: 20px 0px;
+        background-color: rgb(247, 244, 241);
+    }
+
+    ul.recipe_ingredients_group {
+        padding-left: 32px;
+        margin: 0px;
+    }
+
+    li.recipe_ingredients:last-child {
+        margin-bottom: 0px;
+    }
+
+    .col-7.recipe_table_right{
+        width: 100%;
+    }
+
+}
+
+/* mobile end */
