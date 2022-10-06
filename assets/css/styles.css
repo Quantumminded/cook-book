@@ -9,3 +9,32 @@ border: none;
 margin: 0px;
 }
 
+.ul-nav{
+    list-style-type: none;
+    font-size: 1.2em;
+
+}
+.nav-link{
+    color: #c9c9c9;
+    text-decoration: none;
+    
+    
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    background-color: #c9c9c9;
+    color: #FDFBFD;
+}
+
+.add-section{
+color: rgb(227, 206, 62);
+font-weight: 650;
+
+
+}
+
+.add-section:hover{
+    background-color: #c9c9c9;
+    color: #FDFBFD;
+}
