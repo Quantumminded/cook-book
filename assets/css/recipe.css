@@ -17,18 +17,32 @@
 }
 
 .recipe_title_separation_line {
-    width: 80%;
+    width: 60%;
 }
 
 
 
 .recipe_image_section {
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 
 .recipe_img {
-    width: 80%;
+    width: 60%;
     height: 400px;
     object-fit: cover;
+}
+
+.recipe_body_top{
+    margin: 0px;
+}
+
+.recipe_author{
+    font-weight: 800;
+}
+
+.recipe_time_title {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #999;
 }
