@@ -17,7 +17,7 @@
 }
 
 .recipe_title_separation_line {
-    width: 60%;
+    width: 70%;
 }
 
 
@@ -28,13 +28,22 @@
 
 
 .recipe_img {
-    width: 60%;
+    width: 70%;
     height: 400px;
     object-fit: cover;
 }
 
+.container {
+    margin: 0px;
+}
+
 .recipe_body_top{
     margin: 0px;
+    padding: 0px;
+}
+
+.recipe_author, .recipe_time_title {
+    margin-bottom: 6px;
 }
 
 .recipe_author{
