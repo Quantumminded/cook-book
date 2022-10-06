@@ -1,0 +1,48 @@
+.recipe_page {
+    margin: 32px 64px;
+}
+
+
+.recipe_page_header {
+    margin: 0px 0px 64px; 
+}
+
+.recipe_title_secion {
+    margin-bottom: 32px;
+   
+}
+
+.recipe_title, .recipe_title_separation_line {
+    margin-bottom: 12px;
+}
+
+.recipe_title_separation_line {
+    width: 60%;
+}
+
+
+
+.recipe_image_section {
+    margin-bottom: 48px;
+}
+
+
+.recipe_img {
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.recipe_body_top{
+    margin: 0px;
+}
+
+.recipe_author{
+    font-weight: 800;
+}
+
+.recipe_time_title {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #999;
+}
