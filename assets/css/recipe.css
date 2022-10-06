@@ -39,10 +39,6 @@ hr.recipe_title_separation_line {
 }
 
 
-.recipe_image_section {
-    margin-bottom: 46px;
-}
-
 
 
 
@@ -114,13 +110,74 @@ li.recipe_ingredients, .recipe_steps {
     padding: 0px 0px 0px 6px;
  }
 
-/* non-mobile */
+/* special section for non-mobile */
 
 @media only screen and (min-width: 600px) {
 .recipe_title_section_mobile {
     display: none;
 }
+
+.recipe_image_section {
+    margin-bottom: 46px;
+    cursor: pointer;
+    width: 85%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+
 }
+
+.recipe_image_section .fadedbox {
+    background-color: #ebebeb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 85%;
+    height: 400px;
+    padding: 130px 50px;
+}
+
+.recipe_image_section:hover .fadedbox {
+    opacity: 0.8;
+}
+
+.recipe_image_section .imgae_text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+  
+    
+}
+
+.recipe_image_section .image_title {
+    font-size: 38px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    text-align: center;
+}
+
+.recipe_image_section:hover .image_title,
+.recipe_image_section:focus .image_title {
+    opacity: 1;
+    transform: translateY(50px);
+    -webkit-transform: translateY(30px);
+}
+}
+
+
 
  /* Mobile */
 
@@ -174,6 +231,15 @@ li.recipe_ingredients, .recipe_steps {
     .recipe_subtitle {
         width: 90%;
     }
+
+    .recipe_image_section .image_title {
+        display: none;
+    }
+
+    .recipe_image_section {
+        margin-bottom: 32px;
+    }
+
 
     /* recipe main top */
     .container.recipe_body_top{
