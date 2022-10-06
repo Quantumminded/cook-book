@@ -3,5 +3,7 @@ background-color: #FDFBFD;
 }
 
 hr {
-color: #c1c1c1;
+height: 1px;
+background-color: #c9c9c9;
+border: none;
 }
