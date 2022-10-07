@@ -1,3 +1,4 @@
-const handelClick = function () {alert('URL')};
 
-document.querySelector("button").addEventListener('click', handelClick)
+const myButton = document.querySelector("button");
+
+myButton.onclick = function () {alert('URL')};
