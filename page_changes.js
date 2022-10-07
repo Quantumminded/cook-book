@@ -10,10 +10,11 @@ const hunanSauce = () => {
 }
 
 const pressureCheckpeas = () => {
-    document.querySelector('#recipe_page').src="Pressure_chickpeas.html"
+    document.querySelector("#recipe_page").src =
+      "Pressure_chickpeas.html";
 }
 const shawarmaSpice = () => {
-    document.querySelector('#recipe_page').src="Shawarma_spice.html"
+    document.querySelector("#recipe_page").src = "Shawarma_spice.html";
 }
 const zaatar = () => {
     document.querySelector("#recipe_page").src = "Zaatar.html";
