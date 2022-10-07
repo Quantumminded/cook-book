@@ -1,6 +1,14 @@
-.main_background {
-background-color: #FDFBFD;    
+
+body.main_background {
+background-color: #FDFBFD;
 }
+
+.container.book {
+    height: 100vh;
+}
+
+.sidebar{
+   }
 
 hr {
 height: 1px;
@@ -9,9 +17,19 @@ border: none;
 margin: 0px;
 }
 
+.fa-chevron-down {
+font-size: 18px;
+color: #c9c9c9;
+margin-left: 6px;
+}
+
+
 .ul-nav{
     list-style-type: none;
     font-size: 1.2em;
+    list-style: none;
+    height: 80vh;
+    
 
 }
 .nav-link{
@@ -37,4 +55,16 @@ font-weight: 650;
 .add-section:hover{
     background-color: #c9c9c9;
     color: #FDFBFD;
+}
+
+
+.recipeFrame{
+    height: 100vh;
+    width: 100%;
+}
+
+.box_extra{
+    background-color: pink;
+    width: 600px;
+    height: 600px;
 }
