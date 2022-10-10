@@ -86,6 +86,14 @@ font-weight: 650;
     background-color: #805c6c;
 }
 
+.add-section {
+    padding: 16px;
+}
+
+.col-6.left-menu{
+    padding: 0px;
+}
+
 /* add recipe page */
 
 
