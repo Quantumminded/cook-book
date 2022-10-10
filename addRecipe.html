@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/eb2f7c5e0f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/recipe.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/font_library.css"
+    />
+  </head>
+  <body>
+    <div class="recipe_page">
+      <!-- action area -->
+      <div class="recipe_page_header">
+        <div class="recipe-top-action-area">
+          <a href="#"><i class="fa-solid fa-pencil recipe_action_icon"></i></a>
+          <a href="#"
+            ><i class="fa-sharp fa-solid fa-cart-plus recipe_action_icon"></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-sharp fa-solid fa-calendar-plus recipe_action_icon"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-solid fa-up-right-and-down-left-from-center recipe_action_icon"
+            ></i
+          ></a>
+          <a href="#"><i class="fa-solid fa-ruler recipe_action_icon"></i></a>
+          <a href="#"
+            ><i
+              class="fa-solid fa-share-nodes recipe_action_icon"
+              id="share-button"
+            ></i
+          ></a>
+          <a href="#"
+            ><i class="fa-regular fa-file-pdf recipe_action_icon"></i
+          ></a>
+          <a href="#"><i class="fa-solid fa-trash recipe_action_icon"></i></a>
+          <a href="#"
+            ><i class="fa-solid fa-ellipsis-vertical recipe_action_icon"></i
+          ></a>
+        </div>
+      </div>
+      <!-- action area end -->
+
+      <!-- recipe title area -->
+
+      <div class="recipe_title_secion">
+        <h1 class="recipe_title">Your Recipe!!</h1>
+        <!-- title mobile -->
+        <div class="recipe_title_section_mobile">
+          <h1 class="recipe_title_mobile">Your Recipe!!</h1>
+
+          <div class="action_area_mobile">
+            <a href="#" class="recipe_share_mobile"
+              ><i class="fa-solid fa-share-nodes recipe_action_icon"></i
+            ></a>
+
+            <a href="#"
+              ><i class="fa-solid fa-ellipsis-vertical recipe_action_icon"></i
+            ></a>
+          </div>
+        </div>
+        <!-- title mobile end -->
+        <hr class="recipe_title_separation_line" />
+        <h2 class="recipe_subtitle">
+            In the form below you can add your own recipe and share it with friends!
+        </h2>
+      </div>
+
+      <!-- recipe main -->
+      <div class="recipe_body">
+        <!-- recipe head -->
+        <div class="container recipe_body_top">
+          <div class="row">
+            </div>
+          </div>
+        </div>
+        <!-- recipe head end-->
+        <!--recipe main body -->
+      </div>
+      <div class="container recipe_body_main">
+        <div class="row">
+          <div class="col-5 recipe_table_left">
+          </div>
+          <div class="col-7 recipe_table_right">
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="ftitle">Title"</label>
+                    <input type="text" class="form-control" id="ftitle" placeholder="Title">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="fingredients">Ingredients</label>
+                    <input type=text" class="form-control" id="fingredients" placeholder="Ingredients">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="ftime">Prep Time</label>
+                  <input type="text" class="form-control" id="ftime" placeholder="5 min">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">difficulty</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                      <option>Easy</option>
+                      <option>Medium</option>
+                      <option>Hard</option>
+                    </select>
+                  </div>
+                <div class="form-group">
+                    <label for="fsteps">Steps</label>
+                    <textarea class="form-control" id="fsteps" rows="3"></textarea><br><br>
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit!</button><br><br>
+              </form>
+          </div>
+        </div>
+      </div>
+      <!--recipe main body end-->
+
+      <!-- recipe main end -->
+    </div>
+    <!-- bootsrap js -->
+    <script src="index.js"></script>
+    <script src="page_changes.js" async defer></script>
+  </body>
+</html>
