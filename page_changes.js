@@ -26,5 +26,9 @@ document.querySelector('#chickpeas_link').addEventListener('click',pressureCheck
 document.querySelector('#shawarma_link').addEventListener('click',shawarmaSpice)
 document.querySelector('#zaatar_link').addEventListener('click',zaatar)
 
+const add = () => {
+  document.querySelector("#recipe_page").src = "addRecipe.html";
+};
 
+document.querySelector("#add_link").addEventListener("click", add);
 

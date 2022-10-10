@@ -43,8 +43,8 @@
       href="./assets/css/font_library.css"
     />
   </head>
-  <body>
-    <div class="recipe_page">
+  <body class="main_background">
+    <div class="add_recipe_page">
       <!-- action area -->
       <div class="recipe_page_header">
         <div class="recipe-top-action-area">
@@ -82,11 +82,11 @@
 
       <!-- recipe title area -->
 
-      <div class="recipe_title_secion">
+      <div class="add_recipe_title_section">
         <h1 class="recipe_title">Your Recipe!!</h1>
         <!-- title mobile -->
         <div class="recipe_title_section_mobile">
-          <h1 class="recipe_title_mobile">Your Recipe!!</h1>
+          <h1 class="recipe_title">Your Recipe!!</h1>
 
           <div class="action_area_mobile">
             <a href="#" class="recipe_share_mobile"
@@ -107,37 +107,29 @@
 
       <!-- recipe main -->
       <div class="recipe_body">
-        <!-- recipe head -->
-        <div class="container recipe_body_top">
-          <div class="row">
-            </div>
-          </div>
-        </div>
-        <!-- recipe head end-->
+        
         <!--recipe main body -->
-      </div>
-      <div class="container recipe_body_main">
+        <div class="container recipe_body_main">
         <div class="row">
-          <div class="col-5 recipe_table_left">
-          </div>
-          <div class="col-7 recipe_table_right">
+          
+          <div class="recipe_table_right">
             <form>
                 <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="ftitle">Title"</label>
-                    <input type="text" class="form-control" id="ftitle" placeholder="Title">
+                  <div class="form-group  col-md-6">
+                    <label class="recipe-form-title"for="title">Title</label>
+                    <input type="text" class="form-control" id="ftitle" placeholder="Insert your title here">
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="fingredients">Ingredients</label>
-                    <input type=text" class="form-control" id="fingredients" placeholder="Ingredients">
+                    <label class="recipe-form-title" for="fingredients">Ingredients</label>
+                    <input type="text" class="form-control" id="fingredients" placeholder="Ingredients">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="ftime">Prep Time</label>
+                  <label class="recipe-form-title" for="ftime">Prep Time</label>
                   <input type="text" class="form-control" id="ftime" placeholder="5 min">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect2">difficulty</label>
+                    <label class="recipe-form-title" for="exampleFormControlSelect2">difficulty</label>
                     <select multiple class="form-control" id="exampleFormControlSelect2">
                       <option>Easy</option>
                       <option>Medium</option>
@@ -145,18 +137,20 @@
                     </select>
                   </div>
                 <div class="form-group">
-                    <label for="fsteps">Steps</label>
+                    <label class="recipe-form-title" for="fsteps">Steps</label>
                     <textarea class="form-control" id="fsteps" rows="3"></textarea><br><br>
                   </div>
-                <button type="submit" class="btn btn-primary">Submit!</button><br><br>
+                <button type="submit" class="btn btn-primary form-button">Submit!</button><br><br>
               </form>
           </div>
         </div>
       </div>
       <!--recipe main body end-->
+    </div>
+      
 
       <!-- recipe main end -->
-    </div>
+    
     <!-- bootsrap js -->
     <script src="index.js"></script>
     <script src="page_changes.js" async defer></script>
