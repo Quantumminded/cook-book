@@ -93,6 +93,10 @@ font-weight: 650;
     margin-bottom: 16px;
 }
 
+.form-control{
+background-color: #FDFBFD
+}
+
 .recipe-form-title {
     margin-bottom: 8px;
 }
