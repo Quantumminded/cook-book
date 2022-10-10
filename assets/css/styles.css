@@ -78,6 +78,14 @@ font-weight: 650;
     height: 600px;
 }
 
+.btn {
+    background-color: #5c3648;
+}
+
+.btn:hover {
+    background-color: #805c6c;
+}
+
 /* add recipe page */
 
 
@@ -101,10 +109,3 @@ background-color: #FDFBFD
     margin-bottom: 8px;
 }
 
-.form-button {
-    background-color: #5c3648 ;
-}
-
-.form-button:hover {
-    background-color: #805c6c;
-}
